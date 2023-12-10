@@ -1,0 +1,41 @@
+.Centro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 800px;
+    margin-right: 20px;
+}
+
+.Buscador{
+    font-family: Fjalla One;
+    font-size: 15px;
+    width: 450px;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-bottom-left-radius:25px ;
+    border-top-left-radius:25px ;
+    cursor: pointer;
+    outline: none; 
+    flex: 1;
+}
+
+.Agregar{
+    cursor: pointer;
+    height: 44px;
+    width: 70px;
+    margin-left: -1px;
+    border: 1px solid black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.Agregar:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+.Agregar-dos{
+    border: none;
+    height: 25px;
+}

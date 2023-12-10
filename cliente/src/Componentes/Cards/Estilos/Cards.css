@@ -1,0 +1,65 @@
+.Cards{
+    
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    column-gap: 40px;
+    gap: 40px;
+    padding-left: 115px;
+    
+}
+
+.paginado{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+
+}
+
+.menor{
+    background-color: #ffea07;
+    font-family: Fjalla One;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.menor:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+}
+
+.menor:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid white;
+}
+
+.mayor{
+    background-color: #ffea07;
+    font-family: Fjalla One;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.mayor:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+}
+
+.mayor:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid white;
+}

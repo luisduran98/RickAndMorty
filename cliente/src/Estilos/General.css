@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+.Fondo{
+    background: url("./Imagenes/espacio-rick.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* p{
+    color: white;
+} */

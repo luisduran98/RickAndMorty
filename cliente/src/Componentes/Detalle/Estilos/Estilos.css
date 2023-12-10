@@ -1,0 +1,57 @@
+.Detalle-General{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+}
+
+.Detalle{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
+    border: 4px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    
+}
+
+.Detalle-Dos{
+    background-color: lightgreen;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 400px;
+}
+.Detalle-Tres{
+    font-family: Fjalla One;
+    font-size: 18px;
+    color: black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: black;
+    width: 400px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.Detalle-Imagen{
+    object-fit: cover;
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.Detalle-Texto{
+    background-color: #88e23b;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}

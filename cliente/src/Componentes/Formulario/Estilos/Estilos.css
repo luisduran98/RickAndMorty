@@ -1,0 +1,132 @@
+.Inicio{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    font-family: Fjalla One;
+    background-image: url('../Imagenes/gato.jpg');
+}
+
+.Formulario{
+    background-color: #88e23b;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 15px;
+    z-index: 1;
+
+}
+
+.Inicio-Dos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Inicio-Tres{
+    position: relative;
+    background-color: rgb(233, 1, 1);
+    width: 100%;
+    height: 550px;
+}
+
+.RickPortal{
+    position: absolute;
+    bottom: -20px;
+    right: 36%;
+    object-fit: cover;
+    width: 550px;
+    height: 400px;
+}
+
+.Documentacion{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.Secreto{
+    font-family: Fjalla One;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none; 
+}
+
+.Go{
+    font-family: Fjalla One;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0e14a;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Go:hover{
+    background-color: #f0e56a;
+}
+
+.Go:active{
+    background-color: #e7d725;
+}
+
+.Registrate{
+    position: absolute;
+    bottom: 250px;
+    left: 910px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f0e14a;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 10px;
+}
+
+.Registrate:hover{
+    background-color: #f0e56a;
+}
+
+.Registrate:active{
+    background-color: #e7d725;
+}
+
+.home{
+    position: absolute;
+    bottom: 250px;
+    left: 910px;
+    background-color: #f0e14a;
+    font-family: Fjalla One;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: #f0e56a;
+}
+
+.home:active{
+    background-color: #e7d725;
+}
+
+.rickandmorty{
+    position: absolute;
+    top: -180px;
+}

@@ -1,0 +1,32 @@
+.Registro-emergente{
+    position: relative;
+    position: absolute;
+    top:100px;
+    left: 840px;
+    color:white;
+    background-color: #f0e14a;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    z-index: 1;
+    border-top-right-radius: 13px;
+}
+
+.Registro-boton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.Registro-texto{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
